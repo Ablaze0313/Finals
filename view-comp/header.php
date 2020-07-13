@@ -73,7 +73,7 @@
                   <form action="login.php" method="POST">
                     <div class="form-group login-form">
                       <label for="username">Username: </label><br>
-                      <input class="credentials" type="text" id="username" name="username" placeholder="Username" required><br>
+                      <input class="credentials" type="text" id="username" name="username" placeholder="Username" required><br><br>
                       <label for="password">Password: </label><br>
                       <input class="credentials" type="password" id="password" name="password" placeholder="Password" required><br>
                     </div>
@@ -82,7 +82,7 @@
                     </div>
                   </form>
                   <div class="signup">
-                      <button onclick="signup();" class="signuplink" data-toggle="modal" data-target="#signupModal" style="color:orange; border:none; background:none;">No Account Yet? Sign Up Now!</button>
+                      <button onclick="signup();" class="signuplink" data-toggle="modal" data-target="#signupModal" style="color:blue; border:none; background-color:white;">No Account Yet? Sign Up Now!</button>
                   </div>
                 </div>
               </div>

@@ -36,7 +36,7 @@
 				echo '<div class="view-item">';
 	        echo '<div class="products">';
 						echo '<div class="row">';
-							echo '<img class="left" src="'.$product->__get('productImgUrl').'">';
+							echo '<img class="left" src="'.$product->__get('productImgUrl').'" style="height:300px; width:350px;">';
 
 							echo
 							'<form class="right" action="checkout-form.php" method="POST">
