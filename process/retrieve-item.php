@@ -1,5 +1,5 @@
 <?php
-	require_once('../model/products.php');
+	require_once('model/products.php');
 	function getItemDetails($itemName){
 
 		try{

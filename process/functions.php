@@ -44,7 +44,7 @@
                             	width: 19%;
                             	height: 40%;">';
                   echo '<center><h6 style="color:black; word-wrap: break-word; margin-top:0px;">'.$productName.'</h6></center>';
-                  echo '<a href="products/'.$productLink.'.php"> ';
+                  echo '<a href="'.$productLink.'.php"> ';
                     echo '<img class="item" src="'.$product['img_dir'].'" style="height: 150px; width: 180px;"><br>';
                   echo '</a>';
                   echo '<center><h5 style="color:black; margin-top:10px; margin-bottom:0px;">Price:</h5>

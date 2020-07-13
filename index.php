@@ -15,15 +15,16 @@
     getUser();
   }
  ?>
-<div class="container container-fluid" style="background-color: black;">
 
-  <div class="fetch-Items">
+  <div class="container container-fluid" style="background-color: black;">
 
-    <?php getProducts(); ?>
+    <div class="fetch-Items">
+
+      <?php getProducts(); ?>
+
+    </div>
 
   </div>
-
-</div>
 
 
  <?php

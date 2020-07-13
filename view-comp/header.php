@@ -2,7 +2,7 @@
   function isActive($page) {
     return strpos($_SERVER['REQUEST_URI'], $page);
   }
-  require_once('../process/functions.php');
+  require_once('process/functions.php');
 ?>
 
 <html lang="en" dir="ltr">
