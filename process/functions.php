@@ -70,10 +70,10 @@
           }else{
 
             if(!isset($_SESSION['username'])){
-              echo '<h7 class="username">Welcome!&nbsp;</h7>';
+              echo '<h7 class="username">Welcome, Guest!&nbsp;</h7>';
               echo '<button class="log btn btn-outline-dark" data-toggle="modal" data-target="#loginModal"><strong>LOG IN</strong></button>';
             } else {
-              echo '<h7 class="username">@'.$_SESSION['username'].'&nbsp;</h7>';
+              echo '<h7 class="username">Welcome, @'.$_SESSION['username'].'!&nbsp;</h7>';
               echo '<a href="logout.php">
                       <input class="log btn btn-outline-dark" type="submit" value="LOG OUT">
                     </a>';
