@@ -148,6 +148,8 @@
               $stmnt->bind_param("ssssi", $houseno, $street, $brgy, $city, $dbCurrentUserId['id']);
               $stmnt->execute();
 
+              $stmt->close();
+
               if($stmnt){
                 $insertCurrentUserQuery = 'INSERT INTO currentuser (user_id)
                   values (?)';
@@ -155,13 +157,17 @@
                 $sttmnt->bind_param("i", $dbCurrentUserId['id']);
                 $sttmnt->execute();
 
+                $stmnt->close();
+
                 $_SESSION['username'] = $uname;
 
                 saveSignUp($uname);
                 getLogin();
 
+
                 if(!$sttmnt){
                   throw new Exception("insert error");
+                    $sttmnt->close();
                 }
               } else {
                 throw new Exception("insert error");
@@ -172,9 +178,7 @@
             }
           }
         }
-        $stmt->close();
-        $stmnt->close();
-        $sttmnt->close();
+
         $db->close();
     } catch (Exception $e) {
         $e->getMessage();
@@ -321,6 +325,8 @@
               $stmnt->bind_param("ssssi", $houseno, $street, $brgy, $city, $dbCurrentUserId['id']);
               $stmnt->execute();
 
+              $stmt->close();
+
               if($stmnt){
                 $insertCurrentUserQuery = 'INSERT INTO currentuser (user_id)
                   values (?)';
@@ -333,8 +339,12 @@
                 saveSignUp($uname);
                 getLogin();
 
+                $stmnt->close();
+
                 if(!$sttmnt){
                   throw new Exception("insert error");
+
+                  $sttmnt->close();
                 }
               } else {
                 throw new Exception("insert error");
@@ -345,9 +355,9 @@
             }
           }
         }
-        $stmt->close();
-        $stmnt->close();
-        $sttmnt->close();
+
+
+
         $db->close();
     } catch (Exception $e) {
         $e->getMessage();

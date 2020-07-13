@@ -50,9 +50,9 @@
 
 								echo '<div class="form-group">';
 									if(!isset($_SESSION['username']) || $dir['stock'] <= 0)	{
-										echo '<center><input type="submit" class="add-to-cart" value="PURCHASE ITEM" disabled></center>';
+										echo '<center><input type="submit" class="btn btn-outline-success add-to-cart" value="PURCHASE ITEM" disabled></center>';
 									} else {
-										echo '<center><input type="submit" class="add-to-cart" value="PURCHASE ITEM"></center>';
+										echo '<center><input type="submit" class="btn btn-outline-success add-to-cart" value="PURCHASE ITEM"></center>';
 									}
 									if ($dir['stock'] <= 0) {
 											echo '<div class="outofstock alert alert-danger" role="alert"><center>OUT OF STOCK</center></div>';
