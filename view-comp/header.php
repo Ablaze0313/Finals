@@ -16,7 +16,8 @@
 
     <script src="https://kit.fontawesome.com/e4cf9541ab.js" crossorigin="anonymous"></script>
     <script src="js/login-signup.js"></script>
-    <script src="../js/price.js"></script>
+    <script src="js/price.js"></script>
+    <script src="js/checkout-form.js"></script>
 
 
   </head>
@@ -35,9 +36,9 @@
                       <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                      <form class="form-inline my-2 my-lg-0" action="index.php" method="GET">
+                        <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0 search-button" type="submit">Search</button>
                       </form>
                     </li>
                   </ul>

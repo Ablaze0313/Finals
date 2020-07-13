@@ -46,6 +46,14 @@ CREATE TABLE IF NOT EXISTS products (
   stock INT(6)
 );
 
+CREATE TABLE IF NOT EXISTS cart (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  qty INT(6),
+  price INT(6),
+  product_id INT(6) UNSIGNED, FOREIGN KEY (product_id) REFERENCES products(id),
+  user_id INT(6) UNSIGNED, FOREIGN KEY (user_id) REFERENCES users(id),
+);
+
 
 INSERT INTO categories (category)
 VALUES

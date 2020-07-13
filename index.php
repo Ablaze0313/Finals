@@ -10,6 +10,7 @@
 
   require_once('view-comp/header.php');
   require_once('process/functions.php');
+  require_once('process/process-search.php');
 
   if(!isset($_SESSION['username'])){
     getUser();
@@ -20,7 +21,15 @@
 
     <div class="fetch-Items">
 
-      <?php getProducts(); ?>
+      <?php
+      
+          if(isset($_GET['search'])){
+            getSearchProduct($_GET['search']);
+          } else{
+            getProducts();
+          }
+
+      ?>
 
     </div>
 
