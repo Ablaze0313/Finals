@@ -2,7 +2,7 @@
   function isActive($page) {
     return strpos($_SERVER['REQUEST_URI'], $page);
   }
-  require_once('process/functions.php');
+  require_once('../process/functions.php');
 ?>
 
 <html lang="en" dir="ltr">
@@ -16,7 +16,7 @@
 
     <script src="https://kit.fontawesome.com/e4cf9541ab.js" crossorigin="anonymous"></script>
     <script src="js/login-signup.js"></script>
-    <script src="js/price.js"></script>
+    <script src="../js/price.js"></script>
 
 
   </head>
