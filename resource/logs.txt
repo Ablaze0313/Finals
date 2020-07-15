@@ -1,23 +1,4 @@
-
-06:49, 13th July 2020	::1	JeffCantores logged in
-06:50, 13th July 2020	::1	JeffCantores was logged out
-07:27, 13th July 2020	::1	JeffCantores logged in
-09:21, 13th July 2020	::1	JeffCantores	checked out order
-09:21, 13th July 2020	::1	JeffCantores	checked out order
-09:22, 13th July 2020	::1	JeffCantores	checked out order
-09:24, 13th July 2020	::1	JeffCantores	checked out order
-09:24, 13th July 2020	::1	JeffCantores	checked out order
-09:27, 13th July 2020	::1	JeffCantores	checked out order
-09:29, 13th July 2020	::1	JeffCantores	checked out order
-09:32, 13th July 2020	::1	JeffCantores	checked out order
-09:38, 13th July 2020	::1	JeffCantores	checked out order
-10:29, 13th July 2020	::1	JeffCantores	checked out order
-10:30, 13th July 2020	::1	JeffCantores	checked out order
-10:32, 13th July 2020	::1	JeffCantores	checked out order
-10:36, 13th July 2020	::1	JeffCantores	checked out order
-10:36, 13th July 2020	::1	JeffCantores	checked out order
-10:43, 13th July 2020	::1	JeffCantores	checked out order
-10:49, 13th July 2020	::1	JeffCantores	checked out order
-11:36, 13th July 2020	::1	JeffCantores	checked out order
-11:36, 13th July 2020	::1	JeffCantores was logged out
-11:39, 13th July 2020	::1	JeffCantores logged in
+09:54, 15th July 2020	::1	Sexy signed up.
+09:55, 15th July 2020	::1	Sexy was logged out
+09:55, 15th July 2020	::1	Sexy logged in
+10:30, 15th July 2020	::1	Sexy was logged out
